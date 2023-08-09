@@ -1,0 +1,114 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, p, ul, ol, li, table, td {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #ffdeb2;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header section */
+h1 {
+    color: #ff0505;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #666;
+}
+
+/* Style the main content section */
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the skills section */
+h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+table.skills-table {
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+
+td.skill-name {
+    font-weight: bold;
+}
+
+td.skill-rating {
+    color: #ff9900;
+}
+
+/* Style the hobbies section */
+h4 {
+    color: #333;
+    margin-top: 20px;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+/* Style the contact link */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Style the lower section header */
+.section-header {
+    color: #cc3333; /* Set your desired color */
+    margin-top: 30px; /* Adjust margin as needed */
+}
+
+/* Style the hobbies list */
+.hobbies-list {
+    margin-left: 20px; /* Adjust margin as needed */
+    list-style-type: square; /* Change the list style */
+    color: #009900; /* Set your desired color */
+}
+
+/* Style the individual list items */
+.hobbies-list li {
+    margin-bottom: 5px; /* Adjust spacing between items */
+}
+
+/* Your existing styles... */
+
+/* Style the lower section background */
+.lower-section {
+    background-color: #fadad8; /* Set your desired background color */
+    padding: 20px; /* Add padding as needed */
+}
+
+/* Style the contact link */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
